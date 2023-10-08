@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Exe\iolinkmaster_test_5_to_EWARM.out</Path>
+            <Output>
+                <Path>C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\List\iolinkmaster_test_5_to_EWARM.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>

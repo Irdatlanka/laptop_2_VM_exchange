@@ -1,0 +1,831 @@
+###############################################################################
+#
+# IAR ELF Linker V9.40.1.364/W64 for ARM                  09/Oct/2023  01:40:53
+# Copyright 2007-2023 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Exe\iolinkmaster_test_5_to_EWARM.out
+#    Map file     =
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\List\iolinkmaster_test_5_to_EWARM.map
+#    Command line =
+#        -f
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Exe\iolinkmaster_test_5_to_EWARM.out.rsp
+#        (C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\Core_13247989168731456611.dir\main.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\EWARM_18443280873093131863.dir\startup_stm32u585xx.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_hal.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_hal_adc.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_hal_adc_ex.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_hal_cortex.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_hal_dma.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_hal_dma_ex.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_hal_exti.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_hal_flash.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_hal_flash_ex.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_hal_gpio.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_hal_gtzc.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_hal_i2c.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_hal_i2c_ex.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_hal_icache.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\Core_13247989168731456611.dir\stm32u5xx_hal_msp.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_hal_pcd.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_hal_pcd_ex.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_hal_pwr.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_hal_pwr_ex.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_hal_rcc.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_hal_rcc_ex.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_hal_spi.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_hal_spi_ex.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_hal_tim.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_hal_tim_ex.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\Core_13247989168731456611.dir\stm32u5xx_hal_timebase_tim.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_hal_uart.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_hal_uart_ex.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\Core_13247989168731456611.dir\stm32u5xx_it.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_ll_dma.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_ll_exti.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_ll_gpio.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_ll_lpgpio.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_ll_ucpd.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_ll_usb.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir\stm32u5xx_ll_utils.o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\CMSIS_6603591812247902717.dir\system_stm32u5xx.o
+#        --no_out_extension -o
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Exe\iolinkmaster_test_5_to_EWARM.out
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\List\iolinkmaster_test_5_to_EWARM.map
+#        --config
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM/stm32u585xx_flash.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale
+#        --cpu=Cortex-M33.no_dsp.no_se --fpu=VFPv5_sp) --dependencies=n
+#        C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Exe\iolinkmaster_test_5_to_EWARM.out.iar_deps
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because --advanced_heap
+was not specified and the application did not appear to
+be primarily optimized for speed.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x81f'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x200b'ffff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                       0x238
+  .intvec            ro code   0x800'0000   0x238  startup_stm32u585xx.o [3]
+                             - 0x800'0238   0x238
+
+"P1":                                      0x5628
+  .text              ro code   0x800'0238  0x104e  stm32u5xx_hal_rcc_ex.o [4]
+  .text              ro code   0x800'1286    0x2a  copy_init3.o [7]
+  .text              ro code   0x800'12b0     0xc  stm32u5xx_hal.o [4]
+  .text              ro code   0x800'12bc   0xc4c  stm32u5xx_hal_rcc.o [4]
+  .text              ro code   0x800'1f08    0x8c  stm32u5xx_hal_timebase_tim.o [2]
+  .text              ro code   0x800'1f94    0xa4  stm32u5xx_hal_pwr_ex.o [4]
+  .text              ro code   0x800'2038   0x474  stm32u5xx_hal_tim.o [4]
+  .text              ro code   0x800'24ac    0x9c  stm32u5xx_hal_cortex.o [4]
+  .text              ro code   0x800'2548     0x2  stm32u5xx_hal_tim.o [4]
+  .text              ro code   0x800'254a     0x2  stm32u5xx_hal_tim.o [4]
+  .text              ro code   0x800'254c     0x2  stm32u5xx_hal_tim.o [4]
+  .text              ro code   0x800'2550   0x51c  main.o [2]
+  .text              ro code   0x800'2a6c     0x2  stm32u5xx_hal_tim_ex.o [4]
+  .text              ro code   0x800'2a6e     0x2  stm32u5xx_hal_tim_ex.o [4]
+  .text              ro code   0x800'2a70     0x2  stm32u5xx_hal_tim.o [4]
+  .text              ro code   0x800'2a72     0x2  stm32u5xx_hal_tim_ex.o [4]
+  .text              ro code   0x800'2a74     0x2  stm32u5xx_hal_tim_ex.o [4]
+  .text              ro code   0x800'2a76     0x2  stm32u5xx_hal_tim_ex.o [4]
+  .text              ro code   0x800'2a78     0x2  stm32u5xx_hal_tim_ex.o [4]
+  .text              ro code   0x800'2a7a     0x2  stm32u5xx_hal_tim_ex.o [4]
+  .text              ro code   0x800'2a7c     0x2  stm32u5xx_hal_tim.o [4]
+  .text              ro code   0x800'2a80    0x58  stm32u5xx_hal.o [4]
+  .text              ro code   0x800'2ad8   0x250  stm32u5xx_hal_gpio.o [4]
+  .text              ro code   0x800'2d28   0xb9c  stm32u5xx_hal_adc.o [4]
+  .text              ro code   0x800'38c4   0x168  stm32u5xx_hal_spi.o [4]
+  .text              ro code   0x800'3a2c    0x46  stm32u5xx_hal_spi_ex.o [4]
+  .text              ro code   0x800'3a74   0x4b4  stm32u5xx_hal_uart.o [4]
+  .text              ro code   0x800'3f28    0xf8  stm32u5xx_hal_uart_ex.o [4]
+  .text              ro code   0x800'4020    0x14  memset.o [7]
+  .text              ro code   0x800'4034    0xf2  stm32u5xx_ll_gpio.o [4]
+  .text              ro code   0x800'4128   0x7a6  stm32u5xx_hal_pcd.o [4]
+  .text              ro code   0x800'48d0    0x38  stm32u5xx_hal_icache.o [4]
+  .text              ro code   0x800'4908    0x28  stm32u5xx_hal.o [4]
+  .text              ro code   0x800'4930    0x10  stm32u5xx_hal.o [4]
+  .text              ro code   0x800'4940   0x314  stm32u5xx_hal_msp.o [2]
+  .text              ro code   0x800'4c54   0x106  I64DivMod_small.o [7]
+  .text              ro code   0x800'4d5c    0x66  ABImemset.o [7]
+  .text              ro code   0x800'4dc4   0x5d4  stm32u5xx_ll_usb.o [4]
+  .text              ro code   0x800'5398    0x26  stm32u5xx_hal_pcd_ex.o [4]
+  .text              ro code   0x800'53c0    0x18  ABImemcpy_small.o [7]
+  .text              ro code   0x800'53d8     0x2  stm32u5xx_hal_pcd.o [4]
+  .text              ro code   0x800'53da     0x2  stm32u5xx_hal_pcd.o [4]
+  .text              ro code   0x800'53dc     0x2  stm32u5xx_hal_pcd.o [4]
+  .text              ro code   0x800'53de     0x2  stm32u5xx_hal_pcd.o [4]
+  .text              ro code   0x800'53e0     0x2  stm32u5xx_hal_pcd.o [4]
+  .text              ro code   0x800'53e2     0x2  stm32u5xx_hal_pcd_ex.o [4]
+  .text              ro code   0x800'53e4     0x2  stm32u5xx_hal_pcd.o [4]
+  .text              ro code   0x800'53e6     0x2  stm32u5xx_hal_pcd.o [4]
+  .text              ro code   0x800'53e8     0x2  stm32u5xx_hal_pcd.o [4]
+  .text              ro code   0x800'53ea     0x2  stm32u5xx_hal_pcd.o [4]
+  .text              ro code   0x800'53ec     0x2  stm32u5xx_hal_pcd.o [4]
+  .text              ro code   0x800'53ee     0x2  stm32u5xx_hal_pcd.o [4]
+  .text              ro code   0x800'53f0     0x2  I64DivZer.o [7]
+  .rodata            const     0x800'53f4    0x80  stm32u5xx_hal_gpio.o [4]
+  .text              ro code   0x800'5474    0x5c  system_stm32u5xx.o [1]
+  .rodata            const     0x800'54d0    0x40  system_stm32u5xx.o [1]
+  .text              ro code   0x800'5510    0x38  zero_init3.o [7]
+  .text              ro code   0x800'5548    0x2a  stm32u5xx_it.o [2]
+  .text              ro code   0x800'5574    0x28  data_init.o [7]
+  .text              ro code   0x800'559c    0x22  fpinit_M.o [6]
+  .iar.init_table    const     0x800'55c0    0x24  - Linker created -
+  .text              ro code   0x800'55e4    0x1e  cmain.o [7]
+  .text              ro code   0x800'5602     0x4  low_level_init.o [5]
+  .text              ro code   0x800'5606     0x4  exit.o [5]
+  .text              ro code   0x800'560c     0xa  cexit.o [7]
+  .text              ro code   0x800'5618    0x14  exit.o [8]
+  .text              ro code   0x800'562c    0x1c  cstartup_M.o [7]
+  .text              ro code   0x800'5648    0x10  startup_stm32u585xx.o [3]
+  Initializer bytes  const     0x800'5658    0x10  <for P2-1>
+  .rodata            const     0x800'5668     0x8  system_stm32u5xx.o [1]
+  .text              ro code   0x800'5670     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5674     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5678     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'567c     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5680     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5684     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5688     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'568c     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5690     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5694     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5698     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'569c     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'56a0     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'56a4     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'56a8     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'56ac     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'56b0     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'56b4     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'56b8     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'56bc     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'56c0     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'56c4     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'56c8     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'56cc     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'56d0     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'56d4     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'56d8     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'56dc     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'56e0     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'56e4     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'56e8     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'56ec     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'56f0     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'56f4     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'56f8     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'56fc     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5700     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5704     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5708     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'570c     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5710     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5714     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5718     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'571c     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5720     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5724     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5728     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'572c     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5730     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5734     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5738     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'573c     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5740     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5744     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5748     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'574c     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5750     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5754     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5758     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'575c     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5760     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5764     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5768     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'576c     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5770     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5774     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5778     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'577c     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5780     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5784     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5788     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'578c     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5790     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5794     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5798     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'579c     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'57a0     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'57a4     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'57a8     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'57ac     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'57b0     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'57b4     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'57b8     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'57bc     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'57c0     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'57c4     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'57c8     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'57cc     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'57d0     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'57d4     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'57d8     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'57dc     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'57e0     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'57e4     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'57e8     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'57ec     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'57f0     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'57f4     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'57f8     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'57fc     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5800     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5804     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5808     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'580c     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5810     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5814     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5818     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'581c     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5820     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5824     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5828     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'582c     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5830     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5834     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5838     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'583c     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5840     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5844     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5848     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'584c     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5850     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5854     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'5858     0x4  startup_stm32u585xx.o [3]
+  .text              ro code   0x800'585c     0x4  startup_stm32u585xx.o [3]
+  .rodata            const     0x800'5860     0x0  zero_init3.o [7]
+  .rodata            const     0x800'5860     0x0  copy_init3.o [7]
+                             - 0x800'5860  0x5628
+
+"P2", part 1 of 3:                           0x10
+  P2-1                        0x2000'0000    0x10  <Init block>
+    .data            inited   0x2000'0000     0xc  stm32u5xx_hal.o [4]
+    .data            inited   0x2000'000c     0x4  system_stm32u5xx.o [1]
+                            - 0x2000'0010    0x10
+
+"P2", part 2 of 3:                          0x828
+  .bss               zero     0x2000'0010   0x7dc  main.o [2]
+  .bss               zero     0x2000'07ec    0x4c  stm32u5xx_hal_timebase_tim.o [2]
+                            - 0x2000'0838   0x828
+
+"P2", part 3 of 3:                          0x400
+  CSTACK                      0x2000'0838   0x400  <Block>
+    CSTACK           uninit   0x2000'0838   0x400  <Block tail>
+                            - 0x2000'0c38   0x400
+
+Unused ranges:
+
+         From           To       Size
+         ----           --       ----
+   0x800'5860   0x81f'ffff  0x1f'a7a0
+  0x2000'0c38  0x200b'ffff   0xb'f3c8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x828:
+          0x2000'0010  0x828
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x10:
+           0x800'5658   0x10
+    1 destination range, total size 0x10:
+          0x2000'0000   0x10
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                        ro code  ro data  rw data
+    ------                        -------  -------  -------
+command line/config:
+    -------------------------------------------------------
+    Total:
+
+C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\CMSIS_6603591812247902717.dir: [1]
+    system_stm32u5xx.o                 92       76        4
+    -------------------------------------------------------
+    Total:                             92       76        4
+
+C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\Core_13247989168731456611.dir: [2]
+    main.o                          1'308             2'012
+    stm32u5xx_hal_msp.o               788
+    stm32u5xx_hal_timebase_tim.o      140                76
+    stm32u5xx_it.o                     42
+    -------------------------------------------------------
+    Total:                          2'278             2'088
+
+C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\EWARM_18443280873093131863.dir: [3]
+    startup_stm32u585xx.o           1'080
+    -------------------------------------------------------
+    Total:                          1'080
+
+C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir: [4]
+    stm32u5xx_hal.o                   156       12       12
+    stm32u5xx_hal_adc.o             2'972
+    stm32u5xx_hal_cortex.o            156
+    stm32u5xx_hal_gpio.o              592      128
+    stm32u5xx_hal_icache.o             56
+    stm32u5xx_hal_pcd.o             1'980
+    stm32u5xx_hal_pcd_ex.o             40
+    stm32u5xx_hal_pwr_ex.o            164
+    stm32u5xx_hal_rcc.o             3'148
+    stm32u5xx_hal_rcc_ex.o          4'174
+    stm32u5xx_hal_spi.o               360
+    stm32u5xx_hal_spi_ex.o             70
+    stm32u5xx_hal_tim.o             1'150
+    stm32u5xx_hal_tim_ex.o             14
+    stm32u5xx_hal_uart.o            1'204
+    stm32u5xx_hal_uart_ex.o           248
+    stm32u5xx_ll_gpio.o               242
+    stm32u5xx_ll_usb.o              1'492
+    -------------------------------------------------------
+    Total:                         18'218      140       12
+
+dl7M_tln.a: [5]
+    exit.o                              4
+    low_level_init.o                    4
+    -------------------------------------------------------
+    Total:                              8
+
+m7M_tls.a: [6]
+    fpinit_M.o                         34
+    -------------------------------------------------------
+    Total:                             34
+
+rt7M_tl.a: [7]
+    ABImemcpy_small.o                  24
+    ABImemset.o                       102
+    I64DivMod_small.o                 262
+    I64DivZer.o                         2
+    cexit.o                            10
+    cmain.o                            30
+    copy_init3.o                       42
+    cstartup_M.o                       28
+    data_init.o                        40
+    memset.o                           20
+    zero_init3.o                       56
+    -------------------------------------------------------
+    Total:                            616
+
+shb_l.a: [8]
+    exit.o                             20
+    -------------------------------------------------------
+    Total:                             20
+
+    Gaps                               22        4
+    Linker created                              36    1'024
+-----------------------------------------------------------
+    Grand Total:                   22'368      256    3'128
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'55c0          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'55e4          --   Gb  - Linker created -
+?main                    0x800'55e5         Code  Gb  cmain.o [7]
+ADC1_IRQHandler          0x800'5709         Code  Wk  startup_stm32u585xx.o [3]
+ADC4_IRQHandler          0x800'582d         Code  Wk  startup_stm32u585xx.o [3]
+ADF1_IRQHandler          0x800'5829         Code  Wk  startup_stm32u585xx.o [3]
+AES_IRQHandler           0x800'57e1         Code  Wk  startup_stm32u585xx.o [3]
+AHBPrescTable            0x800'54c0   0x10  Data  Gb  system_stm32u5xx.o [1]
+APBPrescTable            0x800'5668    0x8  Data  Gb  system_stm32u5xx.o [1]
+BusFault_Handler         0x800'554f    0x2  Code  Gb  stm32u5xx_it.o [2]
+COMP_IRQHandler          0x800'5791         Code  Wk  startup_stm32u585xx.o [3]
+CORDIC_IRQHandler        0x800'5855         Code  Wk  startup_stm32u585xx.o [3]
+CRS_IRQHandler           0x800'5795         Code  Wk  startup_stm32u585xx.o [3]
+CSTACK$$Base            0x2000'0838          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'0c38          --   Gb  - Linker created -
+DAC1_IRQHandler          0x800'570d         Code  Wk  startup_stm32u585xx.o [3]
+DCACHE1_IRQHandler       0x800'5825         Code  Wk  startup_stm32u585xx.o [3]
+DCMI_PSSI_IRQHandler     0x800'5845         Code  Wk  startup_stm32u585xx.o [3]
+DMA2D_IRQHandler         0x800'5841         Code  Wk  startup_stm32u585xx.o [3]
+DebugMon_Handler         0x800'5555    0x2  Code  Gb  stm32u5xx_it.o [2]
+EXTI0_IRQHandler         0x800'56a1         Code  Wk  startup_stm32u585xx.o [3]
+EXTI10_IRQHandler        0x800'56c9         Code  Wk  startup_stm32u585xx.o [3]
+EXTI11_IRQHandler        0x800'56cd         Code  Wk  startup_stm32u585xx.o [3]
+EXTI12_IRQHandler        0x800'56d1         Code  Wk  startup_stm32u585xx.o [3]
+EXTI13_IRQHandler        0x800'56d5         Code  Wk  startup_stm32u585xx.o [3]
+EXTI14_IRQHandler        0x800'56d9         Code  Wk  startup_stm32u585xx.o [3]
+EXTI15_IRQHandler        0x800'56dd         Code  Wk  startup_stm32u585xx.o [3]
+EXTI1_IRQHandler         0x800'56a5         Code  Wk  startup_stm32u585xx.o [3]
+EXTI2_IRQHandler         0x800'56a9         Code  Wk  startup_stm32u585xx.o [3]
+EXTI3_IRQHandler         0x800'56ad         Code  Wk  startup_stm32u585xx.o [3]
+EXTI4_IRQHandler         0x800'56b1         Code  Wk  startup_stm32u585xx.o [3]
+EXTI5_IRQHandler         0x800'56b5         Code  Wk  startup_stm32u585xx.o [3]
+EXTI6_IRQHandler         0x800'56b9         Code  Wk  startup_stm32u585xx.o [3]
+EXTI7_IRQHandler         0x800'56bd         Code  Wk  startup_stm32u585xx.o [3]
+EXTI8_IRQHandler         0x800'56c1         Code  Wk  startup_stm32u585xx.o [3]
+EXTI9_IRQHandler         0x800'56c5         Code  Wk  startup_stm32u585xx.o [3]
+Error_Handler            0x800'2a69    0x4  Code  Gb  main.o [2]
+FDCAN1_IT0_IRQHandler    0x800'5711         Code  Wk  startup_stm32u585xx.o [3]
+FDCAN1_IT1_IRQHandler    0x800'5715         Code  Wk  startup_stm32u585xx.o [3]
+FLASH_IRQHandler         0x800'568d         Code  Wk  startup_stm32u585xx.o [3]
+FLASH_S_IRQHandler       0x800'5691         Code  Wk  startup_stm32u585xx.o [3]
+FMAC_IRQHandler          0x800'5859         Code  Wk  startup_stm32u585xx.o [3]
+FMC_IRQHandler           0x800'5799         Code  Wk  startup_stm32u585xx.o [3]
+FPU_IRQHandler           0x800'57e9         Code  Wk  startup_stm32u585xx.o [3]
+GPDMA1_Channel0_IRQHandler
+                         0x800'56e9         Code  Wk  startup_stm32u585xx.o [3]
+GPDMA1_Channel10_IRQHandler
+                         0x800'57b5         Code  Wk  startup_stm32u585xx.o [3]
+GPDMA1_Channel11_IRQHandler
+                         0x800'57b9         Code  Wk  startup_stm32u585xx.o [3]
+GPDMA1_Channel12_IRQHandler
+                         0x800'57bd         Code  Wk  startup_stm32u585xx.o [3]
+GPDMA1_Channel13_IRQHandler
+                         0x800'57c1         Code  Wk  startup_stm32u585xx.o [3]
+GPDMA1_Channel14_IRQHandler
+                         0x800'57c5         Code  Wk  startup_stm32u585xx.o [3]
+GPDMA1_Channel15_IRQHandler
+                         0x800'57c9         Code  Wk  startup_stm32u585xx.o [3]
+GPDMA1_Channel1_IRQHandler
+                         0x800'56ed         Code  Wk  startup_stm32u585xx.o [3]
+GPDMA1_Channel2_IRQHandler
+                         0x800'56f1         Code  Wk  startup_stm32u585xx.o [3]
+GPDMA1_Channel3_IRQHandler
+                         0x800'56f5         Code  Wk  startup_stm32u585xx.o [3]
+GPDMA1_Channel4_IRQHandler
+                         0x800'56f9         Code  Wk  startup_stm32u585xx.o [3]
+GPDMA1_Channel5_IRQHandler
+                         0x800'56fd         Code  Wk  startup_stm32u585xx.o [3]
+GPDMA1_Channel6_IRQHandler
+                         0x800'5701         Code  Wk  startup_stm32u585xx.o [3]
+GPDMA1_Channel7_IRQHandler
+                         0x800'5705         Code  Wk  startup_stm32u585xx.o [3]
+GPDMA1_Channel8_IRQHandler
+                         0x800'57ad         Code  Wk  startup_stm32u585xx.o [3]
+GPDMA1_Channel9_IRQHandler
+                         0x800'57b1         Code  Wk  startup_stm32u585xx.o [3]
+GTZC_IRQHandler          0x800'5695         Code  Wk  startup_stm32u585xx.o [3]
+HAL_ADC_ConfigChannel    0x800'321d  0x5ce  Code  Gb  stm32u5xx_hal_adc.o [4]
+HAL_ADC_Init             0x800'2e35  0x38e  Code  Gb  stm32u5xx_hal_adc.o [4]
+HAL_ADC_MspInit          0x800'495d   0x86  Code  Gb  stm32u5xx_hal_msp.o [2]
+HAL_Delay                0x800'4909   0x28  Code  Wk  stm32u5xx_hal.o [4]
+HAL_GPIO_Init            0x800'2ad9  0x20c  Code  Gb  stm32u5xx_hal_gpio.o [4]
+HAL_GPIO_TogglePin       0x800'2cfb   0x10  Code  Gb  stm32u5xx_hal_gpio.o [4]
+HAL_GPIO_WritePin        0x800'2cf1    0xa  Code  Gb  stm32u5xx_hal_gpio.o [4]
+HAL_GetREVID             0x800'2abd    0x8  Code  Gb  stm32u5xx_hal.o [4]
+HAL_GetTick              0x800'12b1    0xc  Code  Wk  stm32u5xx_hal.o [4]
+HAL_ICACHE_ConfigAssociativityMode
+                         0x800'48d1   0x18  Code  Gb  stm32u5xx_hal_icache.o [4]
+HAL_ICACHE_Enable        0x800'48e9    0xe  Code  Gb  stm32u5xx_hal_icache.o [4]
+HAL_IncTick              0x800'4931   0x10  Code  Wk  stm32u5xx_hal.o [4]
+HAL_Init                 0x800'2a81   0x3c  Code  Gb  stm32u5xx_hal.o [4]
+HAL_InitTick             0x800'1f09   0x78  Code  Gb  stm32u5xx_hal_timebase_tim.o [2]
+HAL_MspInit              0x800'4941   0x1c  Code  Gb  stm32u5xx_hal_msp.o [2]
+HAL_NVIC_EnableIRQ       0x800'251d   0x16  Code  Gb  stm32u5xx_hal_cortex.o [4]
+HAL_NVIC_SetPriority     0x800'24e1   0x3a  Code  Gb  stm32u5xx_hal_cortex.o [4]
+HAL_NVIC_SetPriorityGrouping
+                         0x800'24c7   0x1a  Code  Gb  stm32u5xx_hal_cortex.o [4]
+HAL_PCDEx_ActivateLPM    0x800'5399   0x26  Code  Gb  stm32u5xx_hal_pcd_ex.o [4]
+HAL_PCDEx_LPM_Callback   0x800'53e3    0x2  Code  Wk  stm32u5xx_hal_pcd_ex.o [4]
+HAL_PCD_ConnectCallback
+                         0x800'53ed    0x2  Code  Wk  stm32u5xx_hal_pcd.o [4]
+HAL_PCD_DataInStageCallback
+                         0x800'53df    0x2  Code  Wk  stm32u5xx_hal_pcd.o [4]
+HAL_PCD_DataOutStageCallback
+                         0x800'53d9    0x2  Code  Wk  stm32u5xx_hal_pcd.o [4]
+HAL_PCD_DisconnectCallback
+                         0x800'53ef    0x2  Code  Wk  stm32u5xx_hal_pcd.o [4]
+HAL_PCD_EP_Abort         0x800'48b3   0x1c  Code  Gb  stm32u5xx_hal_pcd.o [4]
+HAL_PCD_IRQHandler       0x800'4207  0x69e  Code  Gb  stm32u5xx_hal_pcd.o [4]
+HAL_PCD_ISOINIncompleteCallback
+                         0x800'53e1    0x2  Code  Wk  stm32u5xx_hal_pcd.o [4]
+HAL_PCD_ISOOUTIncompleteCallback
+                         0x800'53dd    0x2  Code  Wk  stm32u5xx_hal_pcd.o [4]
+HAL_PCD_Init             0x800'4129   0xc8  Code  Gb  stm32u5xx_hal_pcd.o [4]
+HAL_PCD_MspInit          0x800'4b75   0xa2  Code  Gb  stm32u5xx_hal_msp.o [2]
+HAL_PCD_ResetCallback    0x800'53e9    0x2  Code  Wk  stm32u5xx_hal_pcd.o [4]
+HAL_PCD_ResumeCallback   0x800'53e5    0x2  Code  Wk  stm32u5xx_hal_pcd.o [4]
+HAL_PCD_SOFCallback      0x800'53eb    0x2  Code  Wk  stm32u5xx_hal_pcd.o [4]
+HAL_PCD_SetupStageCallback
+                         0x800'53db    0x2  Code  Wk  stm32u5xx_hal_pcd.o [4]
+HAL_PCD_SuspendCallback
+                         0x800'53e7    0x2  Code  Wk  stm32u5xx_hal_pcd.o [4]
+HAL_PWREx_ControlVoltageScaling
+                         0x800'1f95   0x78  Code  Gb  stm32u5xx_hal_pwr_ex.o [4]
+HAL_PWREx_EnableVddUSB   0x800'2019    0xe  Code  Gb  stm32u5xx_hal_pwr_ex.o [4]
+HAL_PWREx_GetVoltageRange
+                         0x800'200d    0xc  Code  Gb  stm32u5xx_hal_pwr_ex.o [4]
+HAL_RCCEx_GetPLL1ClockFreq
+                         0x800'06d1   0x9e  Code  Gb  stm32u5xx_hal_rcc_ex.o [4]
+HAL_RCCEx_GetPLL2ClockFreq
+                         0x800'0771   0x9c  Code  Gb  stm32u5xx_hal_rcc_ex.o [4]
+HAL_RCCEx_GetPLL3ClockFreq
+                         0x800'08f1   0x9e  Code  Gb  stm32u5xx_hal_rcc_ex.o [4]
+HAL_RCCEx_GetPeriphCLKFreq
+                         0x800'09a9  0x724  Code  Gb  stm32u5xx_hal_rcc_ex.o [4]
+HAL_RCCEx_PeriphCLKConfig
+                         0x800'0239  0x47e  Code  Gb  stm32u5xx_hal_rcc_ex.o [4]
+HAL_RCC_ClockConfig      0x800'1a3f  0x1ea  Code  Gb  stm32u5xx_hal_rcc.o [4]
+HAL_RCC_GetClockConfig   0x800'1de9   0x3c  Code  Gb  stm32u5xx_hal_rcc.o [4]
+HAL_RCC_GetHCLKFreq      0x800'1d8d   0x1a  Code  Gb  stm32u5xx_hal_rcc.o [4]
+HAL_RCC_GetPCLK1Freq     0x800'1da7    0xa  Code  Gb  stm32u5xx_hal_rcc.o [4]
+HAL_RCC_GetPCLK2Freq     0x800'1db9   0x12  Code  Gb  stm32u5xx_hal_rcc.o [4]
+HAL_RCC_GetPCLK3Freq     0x800'1dcb    0x8  Code  Gb  stm32u5xx_hal_rcc.o [4]
+HAL_RCC_GetSysClockFreq
+                         0x800'1c9d   0xee  Code  Gb  stm32u5xx_hal_rcc.o [4]
+HAL_RCC_OscConfig        0x800'12bd  0x6e4  Code  Gb  stm32u5xx_hal_rcc.o [4]
+HAL_SPIEx_SetConfigAutonomousMode
+                         0x800'3a2d   0x46  Code  Gb  stm32u5xx_hal_spi_ex.o [4]
+HAL_SPI_Init             0x800'38c5  0x14e  Code  Gb  stm32u5xx_hal_spi.o [4]
+HAL_SPI_MspInit          0x800'4a03   0x6a  Code  Gb  stm32u5xx_hal_msp.o [2]
+HAL_TIMEx_Break2Callback
+                         0x800'2a6f    0x2  Code  Wk  stm32u5xx_hal_tim_ex.o [4]
+HAL_TIMEx_BreakCallback
+                         0x800'2a6d    0x2  Code  Wk  stm32u5xx_hal_tim_ex.o [4]
+HAL_TIMEx_CommutCallback
+                         0x800'2a73    0x2  Code  Wk  stm32u5xx_hal_tim_ex.o [4]
+HAL_TIMEx_DirectionChangeCallback
+                         0x800'2a77    0x2  Code  Wk  stm32u5xx_hal_tim_ex.o [4]
+HAL_TIMEx_EncoderIndexCallback
+                         0x800'2a75    0x2  Code  Wk  stm32u5xx_hal_tim_ex.o [4]
+HAL_TIMEx_IndexErrorCallback
+                         0x800'2a79    0x2  Code  Wk  stm32u5xx_hal_tim_ex.o [4]
+HAL_TIMEx_TransitionErrorCallback
+                         0x800'2a7b    0x2  Code  Wk  stm32u5xx_hal_tim_ex.o [4]
+HAL_TIM_Base_Init        0x800'2039   0x1a  Code  Gb  stm32u5xx_hal_tim.o [4]
+HAL_TIM_Base_MspInit     0x800'2549    0x2  Code  Wk  stm32u5xx_hal_tim.o [4]
+HAL_TIM_Base_Start_IT    0x800'2053   0xac  Code  Gb  stm32u5xx_hal_tim.o [4]
+HAL_TIM_IC_CaptureCallback
+                         0x800'254b    0x2  Code  Wk  stm32u5xx_hal_tim.o [4]
+HAL_TIM_IRQHandler       0x800'2169  0x1c4  Code  Gb  stm32u5xx_hal_tim.o [4]
+HAL_TIM_OC_DelayElapsedCallback
+                         0x800'254d    0x2  Code  Wk  stm32u5xx_hal_tim.o [4]
+HAL_TIM_PWM_PulseFinishedCallback
+                         0x800'2a7d    0x2  Code  Wk  stm32u5xx_hal_tim.o [4]
+HAL_TIM_PeriodElapsedCallback
+                         0x800'2a0d    0xe  Code  Gb  main.o [2]
+HAL_TIM_TriggerCallback
+                         0x800'2a71    0x2  Code  Wk  stm32u5xx_hal_tim.o [4]
+HAL_UARTEx_DisableFifoMode
+                         0x800'3f29   0x3c  Code  Gb  stm32u5xx_hal_uart_ex.o [4]
+HAL_UARTEx_SetRxFifoThreshold
+                         0x800'3f7b   0x14  Code  Gb  stm32u5xx_hal_uart_ex.o [4]
+HAL_UARTEx_SetTxFifoThreshold
+                         0x800'3f65   0x16  Code  Gb  stm32u5xx_hal_uart_ex.o [4]
+HAL_UART_Init            0x800'3a75   0x30  Code  Gb  stm32u5xx_hal_uart.o [4]
+HAL_UART_MspInit         0x800'4a79   0xd4  Code  Gb  stm32u5xx_hal_msp.o [2]
+HASH_IRQHandler          0x800'57ed         Code  Wk  startup_stm32u585xx.o [3]
+HardFault_Handler        0x800'554b    0x2  Code  Gb  stm32u5xx_it.o [2]
+I2C1_ER_IRQHandler       0x800'5751         Code  Wk  startup_stm32u585xx.o [3]
+I2C1_EV_IRQHandler       0x800'574d         Code  Wk  startup_stm32u585xx.o [3]
+I2C2_ER_IRQHandler       0x800'5759         Code  Wk  startup_stm32u585xx.o [3]
+I2C2_EV_IRQHandler       0x800'5755         Code  Wk  startup_stm32u585xx.o [3]
+I2C3_ER_IRQHandler       0x800'57d1         Code  Wk  startup_stm32u585xx.o [3]
+I2C3_EV_IRQHandler       0x800'57cd         Code  Wk  startup_stm32u585xx.o [3]
+I2C4_ER_IRQHandler       0x800'57fd         Code  Wk  startup_stm32u585xx.o [3]
+I2C4_EV_IRQHandler       0x800'5801         Code  Wk  startup_stm32u585xx.o [3]
+ICACHE_IRQHandler        0x800'5815         Code  Wk  startup_stm32u585xx.o [3]
+IWDG_IRQHandler          0x800'56e1         Code  Wk  startup_stm32u585xx.o [3]
+LL_ADC_GetOffsetChannel
+                         0x800'2d43    0xe  Code  Lc  stm32u5xx_hal_adc.o [4]
+LL_ADC_REG_SetSequencerRanks
+                         0x800'2d89   0x54  Code  Lc  stm32u5xx_hal_adc.o [4]
+LL_ADC_SetChannelSamplingTime
+                         0x800'2ddd   0x58  Code  Lc  stm32u5xx_hal_adc.o [4]
+LL_ADC_SetOffset         0x800'2d29   0x1a  Code  Lc  stm32u5xx_hal_adc.o [4]
+LL_ADC_SetOffsetSignedSaturation
+                         0x800'2d51    0xe  Code  Lc  stm32u5xx_hal_adc.o [4]
+LL_ADC_SetOffsetUnsignedSaturation
+                         0x800'2d5f    0xc  Code  Lc  stm32u5xx_hal_adc.o [4]
+LL_ADC_SetSamplingTimeCommonChannels
+                         0x800'2d71   0x18  Code  Lc  stm32u5xx_hal_adc.o [4]
+LL_AHB2_GRP1_EnableClock
+                         0x800'2551   0x18  Code  Lc  main.o [2]
+LL_GPIO_Init             0x800'4035   0xf2  Code  Gb  stm32u5xx_ll_gpio.o [4]
+LPDMA1_Channel0_IRQHandler
+                         0x800'5831         Code  Wk  startup_stm32u585xx.o [3]
+LPDMA1_Channel1_IRQHandler
+                         0x800'5835         Code  Wk  startup_stm32u585xx.o [3]
+LPDMA1_Channel2_IRQHandler
+                         0x800'5839         Code  Wk  startup_stm32u585xx.o [3]
+LPDMA1_Channel3_IRQHandler
+                         0x800'583d         Code  Wk  startup_stm32u585xx.o [3]
+LPGPIO_Map               0x800'53f4   0x80  Data  Lc  stm32u5xx_hal_gpio.o [4]
+LPTIM1_IRQHandler        0x800'577d         Code  Wk  startup_stm32u585xx.o [3]
+LPTIM2_IRQHandler        0x800'5781         Code  Wk  startup_stm32u585xx.o [3]
+LPTIM3_IRQHandler        0x800'57f5         Code  Wk  startup_stm32u585xx.o [3]
+LPTIM4_IRQHandler        0x800'5821         Code  Wk  startup_stm32u585xx.o [3]
+LPUART1_IRQHandler       0x800'5779         Code  Wk  startup_stm32u585xx.o [3]
+LSECSSD_IRQHandler       0x800'585d         Code  Wk  startup_stm32u585xx.o [3]
+MDF1_FLT0_IRQHandler     0x800'5805         Code  Wk  startup_stm32u585xx.o [3]
+MDF1_FLT1_IRQHandler     0x800'5809         Code  Wk  startup_stm32u585xx.o [3]
+MDF1_FLT2_IRQHandler     0x800'580d         Code  Wk  startup_stm32u585xx.o [3]
+MDF1_FLT3_IRQHandler     0x800'5811         Code  Wk  startup_stm32u585xx.o [3]
+MDF1_FLT4_IRQHandler     0x800'584d         Code  Wk  startup_stm32u585xx.o [3]
+MDF1_FLT5_IRQHandler     0x800'5851         Code  Wk  startup_stm32u585xx.o [3]
+MSIRangeTable            0x800'54d0   0x40  Data  Gb  system_stm32u5xx.o [1]
+MemManage_Handler        0x800'554d    0x2  Code  Gb  stm32u5xx_it.o [2]
+NMI_Handler              0x800'5549    0x2  Code  Gb  stm32u5xx_it.o [2]
+OCTOSPI1_IRQHandler      0x800'579d         Code  Wk  startup_stm32u585xx.o [3]
+OCTOSPI2_IRQHandler      0x800'5849         Code  Wk  startup_stm32u585xx.o [3]
+OTFDEC1_IRQHandler       0x800'5819         Code  Wk  startup_stm32u585xx.o [3]
+OTFDEC2_IRQHandler       0x800'581d         Code  Wk  startup_stm32u585xx.o [3]
+OTG_FS_IRQHandler        0x800'5561    0x6  Code  Gb  stm32u5xx_it.o [2]
+PKA_IRQHandler           0x800'57f1         Code  Wk  startup_stm32u585xx.o [3]
+PVD_PVM_IRQHandler       0x800'5679         Code  Wk  startup_stm32u585xx.o [3]
+PWR_S3WU_IRQHandler      0x800'57a1         Code  Wk  startup_stm32u585xx.o [3]
+PendSV_Handler           0x800'5557    0x2  Code  Gb  stm32u5xx_it.o [2]
+RAMCFG_IRQHandler        0x800'5689         Code  Wk  startup_stm32u585xx.o [3]
+RCCEx_PLL2_Config        0x800'110d   0x68  Code  Lc  stm32u5xx_hal_rcc_ex.o [4]
+RCCEx_PLL3_Config        0x800'1195   0x72  Code  Lc  stm32u5xx_hal_rcc_ex.o [4]
+RCC_IRQHandler           0x800'5699         Code  Wk  startup_stm32u585xx.o [3]
+RCC_S_IRQHandler         0x800'569d         Code  Wk  startup_stm32u585xx.o [3]
+RCC_SetFlashLatencyFromMSIRange
+                         0x800'1e31   0x98  Code  Lc  stm32u5xx_hal_rcc.o [4]
+RNG_IRQHandler           0x800'57e5         Code  Wk  startup_stm32u585xx.o [3]
+RTC_IRQHandler           0x800'567d         Code  Wk  startup_stm32u585xx.o [3]
+RTC_S_IRQHandler         0x800'5681         Code  Wk  startup_stm32u585xx.o [3]
+Region$$Table$$Base      0x800'55c0          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'55e4          --   Gb  - Linker created -
+Reset_Handler            0x800'5649         Code  Wk  startup_stm32u585xx.o [3]
+SAES_IRQHandler          0x800'56e5         Code  Wk  startup_stm32u585xx.o [3]
+SAI1_IRQHandler          0x800'57d5         Code  Wk  startup_stm32u585xx.o [3]
+SAI2_IRQHandler          0x800'57d9         Code  Wk  startup_stm32u585xx.o [3]
+SDMMC1_IRQHandler        0x800'57a5         Code  Wk  startup_stm32u585xx.o [3]
+SDMMC2_IRQHandler        0x800'57a9         Code  Wk  startup_stm32u585xx.o [3]
+SPI1_IRQHandler          0x800'575d         Code  Wk  startup_stm32u585xx.o [3]
+SPI2_IRQHandler          0x800'5761         Code  Wk  startup_stm32u585xx.o [3]
+SPI3_IRQHandler          0x800'57f9         Code  Wk  startup_stm32u585xx.o [3]
+SVC_Handler              0x800'5553    0x2  Code  Gb  stm32u5xx_it.o [2]
+SecureFault_Handler      0x800'5671         Code  Wk  startup_stm32u585xx.o [3]
+SysTick_Handler          0x800'5559    0x2  Code  Gb  stm32u5xx_it.o [2]
+SystemClock_Config       0x800'2991   0x74  Code  Gb  main.o [2]
+SystemCoreClock         0x2000'000c    0x4  Data  Gb  system_stm32u5xx.o [1]
+SystemInit               0x800'5475   0x3a  Code  Gb  system_stm32u5xx.o [1]
+TAMP_IRQHandler          0x800'5685         Code  Wk  startup_stm32u585xx.o [3]
+TIM15_IRQHandler         0x800'5785         Code  Wk  startup_stm32u585xx.o [3]
+TIM16_IRQHandler         0x800'5789         Code  Wk  startup_stm32u585xx.o [3]
+TIM17_IRQHandler         0x800'578d         Code  Wk  startup_stm32u585xx.o [3]
+TIM1_BRK_IRQHandler      0x800'5719         Code  Wk  startup_stm32u585xx.o [3]
+TIM1_CC_IRQHandler       0x800'5725         Code  Wk  startup_stm32u585xx.o [3]
+TIM1_TRG_COM_IRQHandler
+                         0x800'5721         Code  Wk  startup_stm32u585xx.o [3]
+TIM1_UP_IRQHandler       0x800'571d         Code  Wk  startup_stm32u585xx.o [3]
+TIM2_IRQHandler          0x800'5729         Code  Wk  startup_stm32u585xx.o [3]
+TIM3_IRQHandler          0x800'572d         Code  Wk  startup_stm32u585xx.o [3]
+TIM4_IRQHandler          0x800'5731         Code  Wk  startup_stm32u585xx.o [3]
+TIM5_IRQHandler          0x800'5735         Code  Wk  startup_stm32u585xx.o [3]
+TIM6_IRQHandler          0x800'555b    0x6  Code  Gb  stm32u5xx_it.o [2]
+TIM7_IRQHandler          0x800'5739         Code  Wk  startup_stm32u585xx.o [3]
+TIM8_BRK_IRQHandler      0x800'573d         Code  Wk  startup_stm32u585xx.o [3]
+TIM8_CC_IRQHandler       0x800'5749         Code  Wk  startup_stm32u585xx.o [3]
+TIM8_TRG_COM_IRQHandler
+                         0x800'5745         Code  Wk  startup_stm32u585xx.o [3]
+TIM8_UP_IRQHandler       0x800'5741         Code  Wk  startup_stm32u585xx.o [3]
+TIM_Base_SetConfig       0x800'233b  0x130  Code  Gb  stm32u5xx_hal_tim.o [4]
+TSC_IRQHandler           0x800'57dd         Code  Wk  startup_stm32u585xx.o [3]
+UART4_IRQHandler         0x800'5771         Code  Wk  startup_stm32u585xx.o [3]
+UART5_IRQHandler         0x800'5775         Code  Wk  startup_stm32u585xx.o [3]
+UARTEx_SetNbDataToProcess
+                         0x800'3fd1   0x3e  Code  Lc  stm32u5xx_hal_uart_ex.o [4]
+UARTEx_SetNbDataToProcess::denominator
+                         0x800'4018    0x8  Data  Lc  stm32u5xx_hal_uart_ex.o [4]
+UARTEx_SetNbDataToProcess::numerator
+                         0x800'4010    0x8  Data  Lc  stm32u5xx_hal_uart_ex.o [4]
+UARTPrescTable           0x800'3c90   0x18  Data  Gb  stm32u5xx_hal_uart.o [4]
+UART_AdvFeatureConfig    0x800'3cb7   0xc6  Code  Gb  stm32u5xx_hal_uart.o [4]
+UART_CheckIdleState      0x800'3d7d   0x8e  Code  Gb  stm32u5xx_hal_uart.o [4]
+UART_EndRxTransfer       0x800'3e93   0x28  Code  Lc  stm32u5xx_hal_uart.o [4]
+UART_SetConfig           0x800'3b31  0x15c  Code  Gb  stm32u5xx_hal_uart.o [4]
+UART_WaitOnFlagUntilTimeout
+                         0x800'3e0b   0x88  Code  Gb  stm32u5xx_hal_uart.o [4]
+UCPD1_IRQHandler         0x800'5571    0x2  Code  Gb  stm32u5xx_it.o [2]
+USART1_IRQHandler        0x800'5765         Code  Wk  startup_stm32u585xx.o [3]
+USART2_IRQHandler        0x800'5769         Code  Wk  startup_stm32u585xx.o [3]
+USART3_IRQHandler        0x800'576d         Code  Wk  startup_stm32u585xx.o [3]
+USB_ActivateSetup        0x800'52d9   0x18  Code  Gb  stm32u5xx_ll_usb.o [4]
+USB_CoreInit             0x800'4dc5   0x60  Code  Gb  stm32u5xx_ll_usb.o [4]
+USB_DevDisconnect        0x800'5253   0x16  Code  Gb  stm32u5xx_ll_usb.o [4]
+USB_DevInit              0x800'4f57  0x146  Code  Gb  stm32u5xx_ll_usb.o [4]
+USB_DisableGlobalInt     0x800'4ef3    0x6  Code  Gb  stm32u5xx_ll_usb.o [4]
+USB_EP0_OutStart         0x800'52f1   0x44  Code  Gb  stm32u5xx_ll_usb.o [4]
+USB_EPStopXfer           0x800'5149   0x94  Code  Gb  stm32u5xx_ll_usb.o [4]
+USB_FlushRxFifo          0x800'50e1   0x42  Code  Gb  stm32u5xx_ll_usb.o [4]
+USB_FlushTxFifo          0x800'509d   0x44  Code  Gb  stm32u5xx_ll_usb.o [4]
+USB_GetDevSpeed          0x800'512d   0x1c  Code  Gb  stm32u5xx_ll_usb.o [4]
+USB_GetMode              0x800'52d1    0x8  Code  Gb  stm32u5xx_ll_usb.o [4]
+USB_ReadDevAllInEpInterrupt
+                         0x800'5287    0xe  Code  Gb  stm32u5xx_ll_usb.o [4]
+USB_ReadDevAllOutEpInterrupt
+                         0x800'5279    0xe  Code  Gb  stm32u5xx_ll_usb.o [4]
+USB_ReadDevInEPInterrupt
+                         0x800'52ab   0x26  Code  Gb  stm32u5xx_ll_usb.o [4]
+USB_ReadDevOutEPInterrupt
+                         0x800'5295   0x16  Code  Gb  stm32u5xx_ll_usb.o [4]
+USB_ReadInterrupts       0x800'526f    0xa  Code  Gb  stm32u5xx_ll_usb.o [4]
+USB_ReadPacket           0x800'520d   0x40  Code  Gb  stm32u5xx_ll_usb.o [4]
+USB_SetCurrentMode       0x800'4eff   0x58  Code  Gb  stm32u5xx_ll_usb.o [4]
+USB_SetDevSpeed          0x800'5123    0xa  Code  Gb  stm32u5xx_ll_usb.o [4]
+USB_SetTurnaroundTime    0x800'4e25   0xce  Code  Gb  stm32u5xx_ll_usb.o [4]
+USB_WritePacket          0x800'51e9   0x24  Code  Gb  stm32u5xx_ll_usb.o [4]
+UsageFault_Handler       0x800'5551    0x2  Code  Gb  stm32u5xx_it.o [2]
+WWDG_IRQHandler          0x800'5675         Code  Wk  startup_stm32u585xx.o [3]
+__NVIC_SetPriority       0x800'24ad   0x1a  Code  Lc  stm32u5xx_hal_cortex.o [4]
+__Vectors                0x800'0000          --   Gb  startup_stm32u585xx.o [3]
+__Vectors_End            0x800'0238         Data  Gb  startup_stm32u585xx.o [3]
+__Vectors_Size {Abs}          0x238          --   Gb  startup_stm32u585xx.o [3]
+__aeabi_ldiv0            0x800'53f1         Code  Gb  I64DivZer.o [7]
+__aeabi_memset           0x800'4d5d         Code  Gb  ABImemset.o [7]
+__cmain                  0x800'55e5         Code  Gb  cmain.o [7]
+__exit                   0x800'5619   0x14  Code  Gb  exit.o [8]
+__iar_Memset             0x800'4d5d         Code  Gb  ABImemset.o [7]
+__iar_Memset_word        0x800'4d65         Code  Gb  ABImemset.o [7]
+__iar_copy_init3         0x800'1287   0x2a  Code  Gb  copy_init3.o [7]
+__iar_data_init3         0x800'5575   0x28  Code  Gb  data_init.o [7]
+__iar_init_vfp           0x800'559d         Code  Gb  fpinit_M.o [6]
+__iar_program_start      0x800'562d         Code  Gb  cstartup_M.o [7]
+__iar_small_Memcpy       0x800'53c5         Code  Gb  ABImemcpy_small.o [7]
+__iar_small_memcpy       0x800'53c1         Code  Gb  ABImemcpy_small.o [7]
+__iar_small_memcpy4      0x800'53c1         Code  Gb  ABImemcpy_small.o [7]
+__iar_small_memcpy8      0x800'53c1         Code  Gb  ABImemcpy_small.o [7]
+__iar_small_uldivmod     0x800'4c55         Code  Gb  I64DivMod_small.o [7]
+__iar_zero_init3         0x800'5511   0x38  Code  Gb  zero_init3.o [7]
+__low_level_init         0x800'5603    0x4  Code  Gb  low_level_init.o [5]
+__vector_table           0x800'0000         Data  Gb  startup_stm32u585xx.o [3]
+_call_main               0x800'55f1         Code  Gb  cmain.o [7]
+_exit                    0x800'560d         Code  Gb  cexit.o [7]
+exit                     0x800'5607    0x4  Code  Gb  exit.o [5]
+hadc1                   0x2000'0010   0x8c  Data  Gb  main.o [2]
+hadc4                   0x2000'009c   0x8c  Data  Gb  main.o [2]
+hpcd_USB_OTG_FS         0x2000'01b8  0x50c  Data  Gb  main.o [2]
+hspi1                   0x2000'0128   0x90  Data  Gb  main.o [2]
+htim6                   0x2000'07ec   0x4c  Data  Gb  stm32u5xx_hal_timebase_tim.o [2]
+huart4                  0x2000'06c4   0x94  Data  Gb  main.o [2]
+huart5                  0x2000'0758   0x94  Data  Gb  main.o [2]
+main                     0x800'2569  0x3ec  Code  Gb  main.o [2]
+memset                   0x800'4021   0x14  Code  Gb  memset.o [7]
+uwTick                  0x2000'0004    0x4  Data  Gb  stm32u5xx_hal.o [4]
+uwTickFreq              0x2000'0000    0x1  Data  Gb  stm32u5xx_hal.o [4]
+uwTickPrio              0x2000'0008    0x4  Data  Gb  stm32u5xx_hal.o [4]
+
+
+[1] = C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\CMSIS_6603591812247902717.dir
+[2] = C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\Core_13247989168731456611.dir
+[3] = C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\EWARM_18443280873093131863.dir
+[4] = C:\Users\Irdatlanka\Documents\GitHub\laptop_2_VM_exchange\iolinkmaster_test_5_to_EWARM\EWARM\iolinkmaster_test_5_to_EWARM\Obj\STM32U5xx_HAL_Driver_18077472236357910042.dir
+[5] = dl7M_tln.a
+[6] = m7M_tls.a
+[7] = rt7M_tl.a
+[8] = shb_l.a
+
+  22'368 bytes of readonly  code memory
+     256 bytes of readonly  data memory
+   3'128 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
